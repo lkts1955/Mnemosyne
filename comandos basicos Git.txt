@@ -1,0 +1,11 @@
+jose.lakatos@gmail.com Senai134
+
+
+git status
+
+git add .
+
+git commit -m "digitar a mensagem de atualizacao"
+
+git push origin main
+

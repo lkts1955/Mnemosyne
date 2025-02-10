@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+/* siginifica todas as tags */
+    margin: 0px;
+    padding: 0px;
+    font-family:"Jost";    
+}
+
+.app-header {
+/* estilizacao aqui dentro */
+
+    
+    height: 80px;
+
+    display: flex; /* Muda a orientacao para lado-a-lado */
+    align-items: center; /* Deixa o texto centralizado verticalmente */
+    justify-content: space-between; /* Joga os elementos para os cantos */
+   
+    padding-right: 80px;
+    padding-left: 80px;
+
+    box-shadow: 0px 2px 4px #4646;
+}
+
+.links a {
+
+        font-size: 30px;
+        text-decoration: none; /*tira o traco da fonte*/
+        color: #464646;
+       padding-left: 35px;
+
+}
+
+
+
