@@ -36,4 +36,19 @@
     padding: 80px;
 }
 
+.memory-card {
+    margin-right: 40;
+    margin-bottom: 40;
+}
+
+
+.memory-card .image {
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/bg1.png");
+    background-size: cover;
+
+}
+
 
