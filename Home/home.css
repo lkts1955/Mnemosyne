@@ -20,7 +20,7 @@
     padding-right: 80px;
     padding-left: 80px;
 
-    box-shadow: 0px 2px 4px #4646;
+    box-shadow: 0px 2px 4px #464646;
 }
 
 .links a {
@@ -37,10 +37,17 @@
 }
 
 .memory-card {
-    margin-right: 40;
-    margin-bottom: 40;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    transition: all ease 0.3s;
+    max-width: 300px;
 }
 
+.memory-card:hover {
+
+    cursor: pointer;
+    scale: 1.05;
+}
 
 .memory-card .image {
     height: 300px;
@@ -51,4 +58,82 @@
 
 }
 
+.memory-card .image1 {
+    height: 300px;
+    width: 300px;
 
+    background-image: url("../assets/imgs/bg1.png");
+    background-size: cover;
+
+}
+
+.memory-card .image2 {
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/kamil-pietrzak-H22w-tq0SeQ-unsplash.jpg");
+    background-size: cover;
+
+}
+
+
+.memory-card .image3 {
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/elizeu-dias-RN6ts8IZ4_0-unsplash.jpg");
+    background-size: cover;
+
+}
+
+
+.memory-card .image4 {
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/kelsey-chance-tAH2cA_BL5g-unsplash.jpg");
+    background-size: cover;
+
+}
+
+
+.memory-card .image5 {
+    height: 300px;
+    width: 300px;
+
+    background-image: url("../assets/imgs/sam-mathews-wZjJxOx8FPI-unsplash.jpg");
+    background-size: cover;
+
+}
+.memory-card h2 {
+    font-size: 50px;
+    font-weight: normal; /* remove negrito */
+    ccolor: #464646;
+}
+
+.memory-card p {
+    color: #464646;
+}
+
+.memories-container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-footer {
+    /* estilizacao aqui dentro */
+    
+        
+        height: 80px;
+    
+        display: flex; /* Muda a orientacao para lado-a-lado */
+        align-items: center; /* Deixa o texto centralizado verticalmente */
+        justify-content: center; /* Joga os elementos para os cantos */
+        
+        padding-right: 80px;
+        padding-left: 80px;
+    
+        box-shadow: -2px 2px 4px #464646;
+    }
+    
