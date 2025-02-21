@@ -1,3 +1,30 @@
+
+// exercicio 1
+
+        //triangulo
+
+    let ta = parseFloat(prompt("Entre com um numero para lado A"));
+    let tb = parseFloat(prompt("Entre com um numero para lado B"));
+    let tc = parseFloat(prompt("Entre com um numero para lado C"));
+
+
+        if (ta + tb > tc && ta + tc > tb && tb + tc > ta) {
+            // Classificao do triângulo
+            if (ta === tb && tb === tc) {
+                console.log("Triângulo Equilátero");
+            } else if (ta === tb || ta === tc || tb === tc) {
+                console.log("Triângulo Isósceles");
+            } else {
+                console.log("Triângulo Escaleno");
+            }
+        } 
+        else {
+            console.log("Os lados não formam um triângulo");
+        }
+    
+    
+
+
 // exercicio 1
 
 let num = prompt("Digite um numero");
@@ -160,7 +187,7 @@ if (operacao != "/") {
 // Exercicio 2
 
 let qualmaior1 = prompt("Digite um Numero");
-let qualmaior2 = prompt("Digete o segundo numero");
+let qualmaior2 = prompt("Digite o segundo numero");
 let qualmaior3 = prompt("Digite o terceiro numero");
 
 console.log("Numeros digitados: " + qualmaior1 + ", " + qualmaior2 + ", " + qualmaior3)
@@ -203,6 +230,24 @@ if(usuario == "admin"){
 
         //triangulo
 
+        let ta = parseFloat(prompt("Entre com um numero para lado A"));
+        let tb = parseFloat(prompt("Entre com um numero para lado B"));
+        let tc = parseFloat(prompt("Entre com um numero para lado C"));
+    
+    
+            if (ta + tb > tc && ta + tc > tb && tb + tc > ta) {
+                // Classificao do triângulo
+                if (ta === tb && tb === tc) {
+                    console.log("Triângulo Equilátero");
+                } else if (ta === tb || ta === tc || tb === tc) {
+                    console.log("Triângulo Isósceles");
+                } else {
+                    console.log("Triângulo Escaleno");
+                }
+            } 
+            else {
+                console.log("Os lados não formam um triângulo");
+            }
 
 //Exercio 2
 
