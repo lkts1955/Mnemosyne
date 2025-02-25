@@ -6,7 +6,14 @@
     display: flex;
     flex-wrap: wrap;
 
+
+
 }
+
+.memories-container a{
+    text-decoration: none;
+}
+
 
 .memory-card {
 
